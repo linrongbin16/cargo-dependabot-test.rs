@@ -1,16 +1,16 @@
 [package]
-name = "cargo-ci-template"
+name = "cargo-dependabot-test"
 version = "0.4.9"
 edition = "2021"
 rust-version = "1.74.0"
 authors = ["Lin Rongbin <linrongbin16@outlook.com>"]
-description = "Cargo CI template."
-repository = "https://github.com/linrongbin16/cargo-ci-template.rs"
+description = "Cargo Dependency BOT Test."
+repository = "https://github.com/linrongbin16/cargo-dependabot-test.rs"
 readme = "README.md"
-homepage = "https://github.com/linrongbin16/cargo-ci-template.rs"
-documentation = "https://docs.rs/cargo-ci-template.rs"
+homepage = "https://github.com/linrongbin16/cargo-dependabot-test.rs"
+documentation = "https://docs.rs/cargo-dependabot-test.rs"
 license = "GPL-3.0"
-keywords = ["cargo", "ci"]
+keywords = ["cargo", "dependabot"]
 
 [dependencies]
 crossterm = { version = "0.27", features = ["event-stream"] }
@@ -19,28 +19,3 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 tracing-appender = "0.2"
 tokio = { version = "1", features = ["full"] }
 clap = { version = "4.5.4", features = ["derive", "unicode"] }
-
-# The profile that 'cargo dist' will build with
-[profile.dist]
-inherits = "release"
-lto = "thin"
-
-# Config for 'cargo dist'
-[workspace.metadata.dist]
-# Don't check 'build.yml' (generated 'release.yml') in CI
-allow-dirty = ["ci"]
-# The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
-cargo-dist-version = "0.12.2"
-# CI backends to support
-ci = ["github"]
-# The installers to generate for each app
-installers = []
-# Target platforms to build apps for (Rust target-triple syntax)
-targets = [
-    "aarch64-apple-darwin",
-    "x86_64-apple-darwin",
-    "x86_64-unknown-linux-gnu",
-    "x86_64-pc-windows-msvc",
-]
-# Publish jobs to run in CI
-pr-run-mode = "plan"
