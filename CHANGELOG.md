@@ -1,6 +1,19 @@
 # Changelog
 
 ---
+## [0.4.10](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.9...v0.4.10) (2024-04-07)
+
+
+### Features
+
+* **lib:** Add hello api ([891820a](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/891820a1f4deb5609dc6e5b0e45b0fce5d3fdefc))
+
+
+### Bug Fixes
+
+* **build:** Remove cargo-dist ([#2](https://github.com/linrongbin16/cargo-dependabot-test.rs/issues/2)) ([3a1d602](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/3a1d6024fe10d3307d2fd63bf6a6a9b8a79607d6))
+* **release:** Use PAT token ([0e00540](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/0e00540e3c7a1cccb77f80dfd2129ade9e2fdc98))
+
 ## [0.4.9](https://github.com/linrongbin16/cargo-ci-template.rs/compare/v0.4.8...v0.4.9) (2024-04-07)
 
 
