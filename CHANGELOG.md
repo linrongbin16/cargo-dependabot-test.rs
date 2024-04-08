@@ -1,6 +1,17 @@
 # Changelog
 
 ---
+## [0.5.0](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.11...v0.5.0) (2024-04-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **lib:** fix api
+
+### Bug Fixes
+
+* **lib:** Fix api ([abe7d43](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/abe7d43775ad52f421f70e16ad0d43003de5f968))
+
 ## [0.4.11](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.10...v0.4.11) (2024-04-07)
 
 
