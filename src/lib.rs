@@ -1,7 +1,7 @@
 pub fn hello() {
-  println!("Hello Cargo CI!");
+  println!("Hello Cargo Dependabot Test!");
 }
 
 pub fn goodbye() {
-  println!("Goodbye Cargo CI!");
+  println!("Goodbye Cargo Dependabot Test!");
 }
