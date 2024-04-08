@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Cargo check
         run: cargo check --workspace
-      - name: Cargo publish verify
+      - name: Cargo publish --dry-run
         run: cargo publish --dry-run
       - uses: google-github-actions/release-please-action@v4
         id: release
