@@ -1,6 +1,13 @@
 # Changelog
 
 ---
+## [0.5.1](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.5.0...v0.5.1) (2024-04-08)
+
+
+### Features
+
+* **release:** Force trigger minor release ([6ef46ca](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/6ef46ca1bc20623d4baa0b144257feebe5f91b05))
+
 ## [0.5.0](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.11...v0.5.0) (2024-04-08)
 
 
