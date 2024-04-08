@@ -1,6 +1,13 @@
 # Changelog
 
 ---
+## [0.4.11](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.10...v0.4.11) (2024-04-07)
+
+
+### Features
+
+* **lib:** Add goodbye api ([1f75b31](https://github.com/linrongbin16/cargo-dependabot-test.rs/commit/1f75b310968ce3d5048ce379af0322799c77d3a5))
+
 ## [0.4.10](https://github.com/linrongbin16/cargo-dependabot-test.rs/compare/v0.4.9...v0.4.10) (2024-04-07)
 
 
